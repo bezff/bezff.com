@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Моё портфолио</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="preloader">
+  <div class="loader">
+    <svg viewBox="0 0 64 64" class="ring">
+      <circle cx="32" cy="32" r="28" />
+    </svg>
+    <span class="loading-text">Загрузка…</span>
+  </div>
+</div>
+<header>
+  <h1 class="logo">Моё&nbsp;портфолио</h1>
+  <label class="theme-switch">
+  <input type="checkbox" id="themeToggle">
+  <svg class="icon" viewBox="0 0 24 24">
+
+    <path class="moon"
+      d="M21 12.79A9 9 0 0 1 11.21 3
+         7 7 0 0 0 12 17a7 7 0 0 0 9-4.21z"/>
+
+    <g class="sun">
+      <circle cx="12" cy="12" r="5"/>
+      <line x1="12" y1="1"  x2="12" y2="3"/>
+      <line x1="12" y1="21" x2="12" y2="23"/>
+      <line x1="4.22" y1="4.22"  x2="5.64" y2="5.64"/>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+      <line x1="1" y1="12" x2="3"  y2="12"/>
+      <line x1="21" y1="12" x2="23" y2="12"/>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+      <line x1="18.36" y1="5.64"  x2="19.78" y2="4.22"/>
+    </g>
+  </svg>
+  </label>
+  
+</header>
+
+<main>
+  <section id="bio" class="reveal">
+      <h2>Обо мне</h2>
+      <li>Привет! Меня зовут Слава. Я увлекаюсь программированием и созданием логики для приложений и игр.</li>
+      <li>Основная платформа, на которой я работаю, — Roblox Studio: здесь я пишу скрипты на Lua, проектирую игровые механики, работаю с серверами и клиентской частью, оптимизируя производительность и пользовательский опыт.</li>
+      <li>Параллельно я изучаю веб-разработку: делаю первые шаги в HTML и CSS, учусь строить семантическую разметку, подключать стили и настраивать базовые визуальные эффекты.</li>
+      <li>Ещё одно направление, которое меня вдохновляет, — Python. Этот язык я использую для написания небольших утилит и тестирования игровых алгоритмов, потому что он позволяет быстро проверять идеи и автоматизировать рутинные задачи.</li>
+  </section>
+
+  <section id="projects" class="reveal">
+      <h2>Проекты</h2>
+      <div class="project-grid">
+          <article>
+              <img src="assets/images/p1.png" alt="">
+              <h3>Сайт ( портфолио )</h3>
+              <p>сайт для портолио и информции кто я такой </p>
+              <a href="https://github.com/..." target="_blank">Подробнее</a>
+          </article>
+          
+          <article>
+              <img src="assets/images/p2.png" alt="">
+              <h3>Название проекта 2</h3>
+              <p>Краткое описание.</p>
+              <a href="https://github.com/..." target="_blank">ssdfsfе</a>
+          </article>
+          
+          <article>
+              <img src="assets/images/p2.png" alt="">
+              <h3>Название проекта 2</h3>
+              <p>Краткое описание.</p>
+              <a href="https://github.com/..." target="_blank">ssdfsfе</a>
+          </article>
+
+          <article>
+              <img src="assets/images/p2.png" alt="">
+              <h3>Название проекта 51</h3>
+              <p>Краткое описание.</p>
+              <a href="https://github.com/..." target="_blank">ssdfsfе</a>
+          </article>
+
+
+      </div>
+  </section>
+
+  <section id="contacts" class="contacts-section">
+    <h2>Контакты</h2>
+
+    <div class="contacts-grid">
+
+      <div class="contact-card" data-tilt>
+        <svg class="c-icon" viewBox="0 0 24 24">
+          <path d="M3 5h18v14H3z" fill="none" stroke="currentColor" stroke-width="2"/>
+          <polyline points="3 6 12 13 21 6" fill="none" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        <h3>Email</h3>
+        <a href="mailto:ggfhffhvyvyvy66@gmail.com">почта</a>
+      </div>
+
+    
+      <div class="contact-card" data-tilt>
+        <svg class="c-icon" viewBox="0 0 24 24">
+          <path d="M22 2 11 22 9 13 2 10z" fill="none" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        <h3>Telegram</h3>
+        <a href="https://t.me/bezff" target="_blank">@bezff</a>
+      </div>
+
+      <div class="contact-card" data-tilt>
+        <svg class="c-icon" viewBox="0 0 24 24">
+          <path d="M12 .5a11.5 11.5 0 0 0-3.63 22.4c.57.1.78-.25.78-.55v-2
+                   c-3.19.7-3.87-1.54-3.87-1.54-.52-1.33-1.27-1.69-1.27-1.69
+                   -1.04-.7.08-.69.08-.69 1.15.08 1.75 1.18 1.75 1.18
+                   1.02 1.74 2.68 1.24 3.33.95.1-.74.4-1.24.72-1.52
+                   -2.55-.29-5.23-1.27-5.23-5.63
+                   0-1.24.44-2.25 1.17-3.05-.12-.29-.51-1.46.11-3.05
+                   0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 6.8
+                   a10.9 10.9 0 0 1 2.87.39c2.19-1.48 3.15-1.17 3.15-1.17
+                   .62 1.59.23 2.76.11 3.05.73.8 1.17 1.81 1.17 3.05
+                   0 4.37-2.69 5.33-5.25 5.62.41.35.77 1.03.77 2.08v3.08
+                   c0 .3.2.65.79.54A11.5 11.5 0 0 0 12 .5Z"
+                fill="none" stroke="currentColor" stroke-width="1.5"/>
+        </svg>
+        <h3>GitHub</h3>
+        <a href="https://github.com/bezff" target="_blank">github.com/bezff</a>
+      </div>
+
+      <div class="contact-card" data-tilt>
+        <svg class="c-icon" viewBox="0 0 24 24">
+          <rect x="4" y="2" width="16" height="20" rx="2" ry="2" fill="none"
+                stroke="currentColor" stroke-width="2"/>
+          <line x1="8" y1="6" x2="16" y2="6" stroke="currentColor" stroke-width="2"/>
+          <line x1="8" y1="10" x2="16" y2="10" stroke="currentColor" stroke-width="2"/>
+          <line x1="8" y1="14" x2="12" y2="14" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        <h3>Резюме</h3>
+        <a class="btn" href="404.html">Скачать резюме</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  © 2025 Старицын Вячеслав ( @bezff )
+</footer>
+
+<script src="script.js"></script>
+</body>
+<svg id="bg-svg" width="100%" height="100%" preserveAspectRatio="none">
+  <defs>
+    <radialGradient id="spot" cx="50%" cy="50%" r="65%">
+      <stop offset="0%"  stop-color="#9a62ff" stop-opacity="0.8"/>
+      <stop offset="60%" stop-color="#4d1db8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#12011f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#spot)"></rect>
+
+  <circle class="shape" cx="8%"  cy="20%" r="120" fill="#b266ff" fill-opacity=".15"/>
+  <polygon class="shape" points="90,10 140,80 40,80" fill="#ca8cff" fill-opacity=".12"/>
+  <rect   class="shape" x="70%" y="60%" width="220" height="220"
+          rx="30" fill="#7d2eff" fill-opacity=".10"/>
+</svg>
+</html>
